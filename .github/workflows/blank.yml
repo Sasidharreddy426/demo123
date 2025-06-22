@@ -1,6 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 
 name: CI
+env:
+
 
 # Controls when the workflow will run
 on:
@@ -17,7 +19,9 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
+    runs-on: ubuntu-latest
     # The type of runner that the job will run on
+  test:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
