@@ -3,8 +3,8 @@ on:
 push:
 branches: ["Main"]
 pull_request:
-branches: ["Main"]
-workflow_dispatch
+ branches: ["Main"]
+workflow_dispatch:
 env:
 greetings: hey how are you
 testvar: value_1
@@ -13,9 +13,10 @@ build:
 runs-on: ubuntu-latest
 steps:
 uses: actions/checkout@v4
-name: single line sentence
+name 1: single line sentence
 runs: hi how are you
-name: multiple line sentence
-runs: |
+name 2: multiple line sentence
+runs 1: |
 hjjjj
-bjmjj
+hjjhhh;
+
