@@ -14,7 +14,7 @@ runs-on: ubuntu-latest
 steps:
 uses: actions/checkout@v4
 name 1: single line sentence
-runs: hi how are you
+runs: hi how are you 
 name 2: multiple line sentence
 runs 1: |
 hjjjj
